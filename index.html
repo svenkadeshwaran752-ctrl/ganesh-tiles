@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GANESH TILES | SURANDAI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+
+<header>
+    <div class="logo">GANESH TILES</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="call-btn" href="tel:9789398717">
+        📞 Call
+    </a>
+</header>
+
+
+<!-- Home -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="small-title">QUALITY • STYLE • TRUST</p>
+
+        <h1>
+            Beautiful Tiles<br>
+            For Your <span>Dream Home</span>
+        </h1>
+
+        <p>
+            Premium tiles and professional tile work
+            in Surandai and surrounding areas.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn">
+                Get in Touch
+            </a>
+
+            <a href="tel:9789398717" class="btn secondary">
+                Call Ganeshan
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- About -->
+
+<section class="about">
+
+    <div>
+        <p class="section-title">WELCOME TO</p>
+
+        <h2>Ganesh Tiles</h2>
+
+        <p>
+            We provide quality tile solutions for homes,
+            shops and other buildings. Our focus is on
+            good quality work, attractive designs and
+            customer satisfaction.
+        </p>
+
+        <div class="features">
+
+            <div>
+                <strong>✓</strong>
+                Quality Work
+            </div>
+
+            <div>
+                <strong>✓</strong>
+                Modern Designs
+            </div>
+
+            <div>
+                <strong>✓</strong>
+                Affordable Price
+            </div>
+
+            <div>
+                <strong>✓</strong>
+                Professional Service
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Services -->
+
+<section class="services" id="services">
+
+    <p class="section-title">WHAT WE DO</p>
+
+    <h2>Our Services</h2>
+
+    <div class="service-container">
+
+        <div class="service-card">
+            <div class="icon">🏠</div>
+            <h3>Floor Tiles</h3>
+            <p>
+                Stylish and durable tiles for
+                living rooms, bedrooms and halls.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">🚿</div>
+            <h3>Bathroom Tiles</h3>
+            <p>
+                Beautiful and practical tiles
+                for modern bathrooms.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">🍽️</div>
+            <h3>Kitchen Tiles</h3>
+            <p>
+                Easy-to-clean tiles for
+                kitchens and cooking areas.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <div class="icon">🧱</div>
+            <h3>Wall Tiles</h3>
+            <p>
+                Attractive wall tiles for
+                homes and commercial spaces.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Gallery -->
+
+<section class="gallery" id="gallery">
+
+    <p class="section-title">OUR WORK</p>
+
+    <h2>Tile Designs</h2>
+
+    <div class="gallery-container">
+
+        <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3"
+                 alt="Modern floor tiles">
+            <h3>Modern Flooring</h3>
+        </div>
+
+        <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+                 alt="Home tiles">
+            <h3>Home Interior</h3>
+        </div>
+
+        <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                 alt="Premium tiles">
+            <h3>Premium Design</h3>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Contact -->
+
+<section class="contact" id="contact">
+
+    <div class="contact-info">
+
+        <p class="section-title">CONTACT US</p>
+
+        <h2>Let's Build Something Beautiful</h2>
+
+        <p>
+            Contact Ganeshan for tile enquiries,
+            pricing and tile work.
+        </p>
+
+        <div class="contact-details">
+
+            <p>📞 <strong>97893 98717</strong></p>
+
+            <p>
+                📍 Surandai, Tenkasi District,
+                Tamil Nadu
+            </p>
+
+        </div>
+
+        <div class="contact-buttons">
+
+            <a href="tel:9789398717" class="btn">
+                📞 Call Now
+            </a>
+
+            <button onclick="sendWhatsApp()" class="btn whatsapp">
+                💬 WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Enquiry Form -->
+
+    <form id="contactForm">
+
+        <h3>Send an Enquiry</h3>
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required
+        >
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="Your Phone Number"
+            required
+        >
+
+        <select id="work" required>
+
+            <option value="">
+                Select Tile Work
+            </option>
+
+            <option>Floor Tiles</option>
+            <option>Bathroom Tiles</option>
+            <option>Kitchen Tiles</option>
+            <option>Wall Tiles</option>
+            <option>Other</option>
+
+        </select>
+
+        <textarea
+            id="message"
+            placeholder="Tell us about your requirement">
+        </textarea>
+
+        <button type="submit">
+            Send Enquiry
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer>
+
+    <h2>GANESH TILES</h2>
+
+    <p>
+        Quality Tiles • Professional Work • Trusted Service
+    </p>
+
+    <p>
+        📍 Surandai, Tenkasi District, Tamil Nadu
+    </p>
+
+    <p>
+        📞 97893 98717
+    </p>
+
+    <hr>
+
+    <p>
+        © 2026 Ganesh Tiles. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
